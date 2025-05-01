@@ -1,2 +1,2 @@
-# low_risk
-Projeto de arquitetura low risk com aws
+# certificacao_aws
+Projeto de teste para certificação aws

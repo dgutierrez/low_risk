@@ -1,0 +1,14 @@
+# Login no ECR
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 974090536112.dkr.ecr.us-east-1.amazonaws.com
+
+# Criação do repositório ECR
+aws ecr create-repository --repository-name ecs_calculadora_api --region us-east-1
+
+# Construção da imagem Docker
+docker build -t ecs_calculadora_api .
+
+# Tagueamento da imagem
+docker tag ecs_calculadora_api:latest 974090536112.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.0
+
+# Push da imagem para o ECR
+docker push 974090536112.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.0

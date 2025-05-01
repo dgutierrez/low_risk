@@ -1,0 +1,4 @@
+# Diretório de estado do Terraform
+.terraform/
+
+*.lock.hcl
