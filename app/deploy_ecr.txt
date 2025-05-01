@@ -8,7 +8,7 @@ aws ecr create-repository --repository-name ecs_calculadora_api --region us-east
 docker build -t ecs_calculadora_api .
 
 # Tagueamento da imagem
-docker tag ecs_calculadora_api:latest 974090536112.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.1
+docker tag ecs_calculadora_api:latest 974090536112.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.2
 
 # Push da imagem para o ECR
-docker push 974090536112.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.1
+docker push 974090536112.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.2

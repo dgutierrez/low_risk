@@ -10,7 +10,11 @@ namespace Calculadora.Application.Feature.Soma.UseCase
         {
             return new GenericResponse
             {
-                DataObject = a + b,
+                DataObject = new
+                {
+                    equacao = String.Format("{0} + {1}", a, b),
+                    resultado = a + b
+                },
                 isSimulation = isSimulation
             };
         }

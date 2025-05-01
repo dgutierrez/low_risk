@@ -11,3 +11,16 @@ D:\Projetos\certificacao_aws\app\Calculadora.Application\obj\Debug\net8.0\Calcul
 D:\Projetos\certificacao_aws\app\Calculadora.Application\obj\Debug\net8.0\refint\Calculadora.Application.dll
 D:\Projetos\certificacao_aws\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.pdb
 D:\Projetos\certificacao_aws\app\Calculadora.Application\obj\Debug\net8.0\ref\Calculadora.Application.dll
+D:\Projetos\low_risk\app\Calculadora.Application\bin\Debug\net8.0\Calculadora.Application.deps.json
+D:\Projetos\low_risk\app\Calculadora.Application\bin\Debug\net8.0\Calculadora.Application.dll
+D:\Projetos\low_risk\app\Calculadora.Application\bin\Debug\net8.0\Calculadora.Application.pdb
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.csproj.AssemblyReference.cache
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.AssemblyInfoInputs.cache
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.AssemblyInfo.cs
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.csproj.CoreCompileInputs.cache
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.sourcelink.json
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.dll
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\refint\Calculadora.Application.dll
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\Calculadora.Application.pdb
+D:\Projetos\low_risk\app\Calculadora.Application\obj\Debug\net8.0\ref\Calculadora.Application.dll

@@ -1,35 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projetos\\certificacao_aws\\app\\Calculadora\\",
+  "WorkspaceRootPath": "D:\\Projetos\\low_risk\\app\\Calculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\low_risk\\app\\calculadora.application\\feature\\soma\\usecase\\somausecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\low_risk\\app\\calculadora.application\\feature\\soma\\usecase\\somausecasemock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\low_risk\\app\\calculadora\\calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|solutionrelative:calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\low_risk\\app\\calculadora.application\\appmodels\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\low_risk\\app\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora\\controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\low_risk\\app\\calculadora\\controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|solutionrelative:controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora.application\\feature\\soma\\usecase\\somausecasemock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseResolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora.application\\feature\\soma\\usecase\\somausecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora.application\\appmodels\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora.application\\feature\\soma\\usecase\\somausecaseresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora.application\\feature\\soma\\interfaces\\isomausecaseresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora.application\\feature\\soma\\interfaces\\isomausecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\certificacao_aws\\app\\calculadora.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,132 +52,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SomaUseCase.cs",
+              "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "ToolTip": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "RelativeToolTip": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:40:28.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculadora",
+              "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora\\Calculadora.csproj",
+              "RelativeDocumentMoniker": "Calculadora.csproj",
+              "ToolTip": "D:\\Projetos\\low_risk\\app\\Calculadora\\Calculadora.csproj",
+              "RelativeToolTip": "Calculadora.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T16:38:54.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SomaUseCaseMock.cs",
+              "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "ToolTip": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "RelativeToolTip": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:38:01.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericResponse.cs",
+              "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "RelativeDocumentMoniker": "..\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "ToolTip": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "RelativeToolTip": "..\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:37:37.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora\\Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora\\Program.cs",
+              "ToolTip": "D:\\Projetos\\low_risk\\app\\Calculadora\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T00:06:53.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SomaUseCaseResolver.cs",
               "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseResolver.cs",
-              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseResolver.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseResolver.cs",
               "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseResolver.cs",
-              "RelativeToolTip": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseResolver.cs",
+              "RelativeToolTip": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseResolver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:59:56.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ISomaUseCaseResolver.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
-              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
-              "RelativeToolTip": "..\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:58:46.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SomaUseCaseMock.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
-              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
-              "RelativeToolTip": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:56:08.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenericResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
-              "RelativeDocumentMoniker": "..\\Calculadora.Application\\AppModels\\GenericResponse.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
-              "RelativeToolTip": "..\\Calculadora.Application\\AppModels\\GenericResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:49:29.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SomaUseCase.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
-              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
-              "RelativeToolTip": "..\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:48:10.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:59:56.185Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ISomaUseCase.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
-              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
-              "RelativeToolTip": "..\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Title": "ISomaUseCaseResolver.cs",
+              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
+              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
+              "RelativeToolTip": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCaseResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:46:49.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:58:46.496Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\Calculadora.Application\\Class1.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Class1.cs",
-              "RelativeToolTip": "..\\Calculadora.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SomaUseCaseMock.cs",
+              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "RelativeToolTip": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCaseMock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:43:49.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:56:08.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "GenericResponse.cs",
+              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\AppModels\\GenericResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T20:49:29.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SomaUseCase.cs",
+              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "RelativeToolTip": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\UseCase\\SomaUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T20:48:10.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISomaUseCase.cs",
+              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
+              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
+              "RelativeToolTip": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Feature\\Soma\\Interfaces\\ISomaUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T20:46:49.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Class1.cs",
+              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Class1.cs",
+              "RelativeToolTip": "..\\..\\..\\certificacao_aws\\app\\Calculadora.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T20:43:49.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CalculadoraController.cs",
-              "DocumentMoniker": "D:\\Projetos\\certificacao_aws\\app\\Calculadora\\Controllers\\CalculadoraController.cs",
+              "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora\\Controllers\\CalculadoraController.cs",
               "RelativeDocumentMoniker": "Controllers\\CalculadoraController.cs",
-              "ToolTip": "D:\\Projetos\\certificacao_aws\\app\\Calculadora\\Controllers\\CalculadoraController.cs",
+              "ToolTip": "D:\\Projetos\\low_risk\\app\\Calculadora\\Controllers\\CalculadoraController.cs",
               "RelativeToolTip": "Controllers\\CalculadoraController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T20:42:30.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-04-30T20:42:30.363Z"
             }
           ]
         }
