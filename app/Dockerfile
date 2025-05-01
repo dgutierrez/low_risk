@@ -12,7 +12,7 @@ ENV ASPNETCORE_URLS=http://+:5010
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Calculadora/Calculadora.csproj", "."]
+COPY ["Calculadora/Calculadora.csproj", "Calculadora/"]
 RUN dotnet restore "Calculadora/Calculadora.csproj"
 COPY . .
 WORKDIR "/src/Calculadora"

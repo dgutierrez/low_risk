@@ -180,11 +180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Calculadora.Application.csproj",
+      "projectUniqueName": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Calculadora.Application.csproj",
       "projectName": "Calculadora.Application",
-      "projectPath": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\Calculadora.Application.csproj",
+      "projectPath": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Calculadora.Application.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\certificacao_aws\\app\\Calculadora.Application\\obj\\",
+      "outputPath": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

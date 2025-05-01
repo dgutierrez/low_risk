@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hDJDQafm5p0=",
+  "dgSpecHash": "B4amsZ3lMLI=",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\certificacao_aws\\app\\Calculadora\\Calculadora.csproj",
+  "projectFilePath": "D:\\Projetos\\low_risk\\app\\Calculadora\\Calculadora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",

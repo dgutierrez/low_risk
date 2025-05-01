@@ -27,7 +27,7 @@ variable "ecr_image_url" {
 variable "service_name" {
   description = "Nome do serviço ECS"
   type        = string
-  default     = "LawranaApiServices"
+  default     = "CalculadoraApiServices"
 }
 
 variable "container_port" {

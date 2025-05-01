@@ -56,7 +56,7 @@ resource "aws_ecs_task_definition" "ecs_task" {
   container_definitions = jsonencode([{
     # Defina as configurações do seu contêiner aqui
     "name"      : "CalculadoraApiServices",
-    "image"     : "${data.aws_caller_identity.current.account_id}.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.0",
+    "image"     : "${data.aws_caller_identity.current.account_id}.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.1",
     
     "essential" : true,
     "portMappings": [{

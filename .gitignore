@@ -2,3 +2,12 @@
 .terraform/
 
 *.lock.hcl
+
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/azds.yaml
+**/bin
+**/obj
