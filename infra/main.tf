@@ -238,7 +238,7 @@ resource "aws_security_group" "ecs_security_group" {
 
 resource "aws_cloudwatch_log_group" "my_log_group" {
   name = "/ecs/CalculadoraApiServices/"  
-
+          
   tags = {
     Environment = "Production",
     Application = "CalculadoraApiServices"
