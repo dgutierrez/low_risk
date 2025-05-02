@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: "PLACEHOLDER_TASK_DEFINITION"
         LoadBalancerInfo:
-          ContainerName: "CalculadoraApi"
+          ContainerName: "CalculadoraApiServices"
           ContainerPort: 5010
