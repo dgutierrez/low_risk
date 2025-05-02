@@ -85,12 +85,6 @@ jobs:
         container-name: ${{ env.CONTAINER_NAME }}
         image: ${{ steps.build-image.outputs.image }}
 
-    - name: Register the ECS Task Definition
-      id: register-task
-      uses: aws-actions/amazon-ecs-register-task-definition@v1
-      with:
-        task-definition: ${{ steps.render-task.outputs.task-definition }}
-
     - name: Substitui o ARN da Task Definition no appspec.yaml
       run: |
         sed -i "s|PLACEHOLDER_TASK_DEFINITION|${{ steps.register-task.outputs.task-definition-arn }}|g" appspec.yaml
