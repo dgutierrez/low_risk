@@ -4,7 +4,7 @@
     "requiresCompatibilities": ["FARGATE"],
     "cpu": "256",
     "memory": "512",
-    "executionRoleArn": "arn:aws:iam::974090536112:role/Calculadora_ecs_task_role",
+    "executionRoleArn": "arn:aws:iam::974090536112:role/CalculadoraApiServices-role",
     "containerDefinitions": [
       {
         "name": "CalculadoraApiServices",
