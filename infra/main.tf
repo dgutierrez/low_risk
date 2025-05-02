@@ -23,6 +23,7 @@ resource "aws_ecs_service" "ecs_service" {
   cluster         = aws_ecs_cluster.ecs_cluster.name
   task_definition = aws_ecs_task_definition.ecs_task.arn
   desired_count   = 1
+  launch_type     = "FARGATE"
   
   deployment_controller {
     type = "CODE_DEPLOY"
@@ -31,6 +32,7 @@ resource "aws_ecs_service" "ecs_service" {
   network_configuration {
     subnets         = var.subnets
     security_groups = [aws_security_group.ecs_security_group.id]
+    assign_public_ip = true
   }
 
   load_balancer {
@@ -40,12 +42,9 @@ resource "aws_ecs_service" "ecs_service" {
   }
 
   depends_on = [
-    //aws_lb_listener_rule.alb_listener_rule,
     aws_security_group.ecs_security_group 
   ]
 }
-
-
 
 resource "aws_ecs_task_definition" "ecs_task" {
   family                   = var.service_name
@@ -54,11 +53,11 @@ resource "aws_ecs_task_definition" "ecs_task" {
   cpu                      = "256"
   memory                   = "512"
   execution_role_arn       = aws_iam_role.app_role.arn 
-  task_role_arn            = aws_iam_role.ecs_task_role.arn
+  task_role_arn            = aws_iam_role.app_role.arn
   container_definitions = jsonencode([{
     # Defina as configurações do seu contêiner aqui
     "name"      : "CalculadoraApiServices",
-    "image"     : "${data.aws_caller_identity.current.account_id}.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:v1.2",
+    "image"     : "${data.aws_caller_identity.current.account_id}.dkr.ecr.us-east-1.amazonaws.com/ecs_calculadora_api:171824e8069bc78498ef5e923cb3b25aa5fada06",
     
     "essential" : true,
     "portMappings": [{
@@ -158,13 +157,13 @@ resource "aws_lb_target_group" "green" {
 }
 
 resource "aws_codedeploy_app" "ecs_app" {
-  name = "ecs-blue-green-app"
+  name = "AppECS-CalculadoraCluster-CalculadoraApiServices"
   compute_platform = "ECS"
 }
 
 resource "aws_codedeploy_deployment_group" "ecs_dg" {
   app_name               = aws_codedeploy_app.ecs_app.name
-  deployment_group_name  = "ecs-blue-green-dg"
+  deployment_group_name  = "DgpECS-CalculadoraCluster-CalculadoraApiServices"
   service_role_arn       = aws_iam_role.codedeploy_role.arn
   deployment_config_name = "CodeDeployDefault.ECSCanary10Percent5Minutes"
 
@@ -239,7 +238,7 @@ resource "aws_security_group" "ecs_security_group" {
 
 resource "aws_cloudwatch_log_group" "my_log_group" {
   name = "/ecs/CalculadoraApiServices/"  
-
+          
   tags = {
     Environment = "Production",
     Application = "CalculadoraApiServices"

@@ -9,7 +9,7 @@ data "aws_iam_policy_document" "app_role_assume_role_policy" {
 
     principals {
       type        = "Service"
-      identifiers = ["ec2.amazonaws.com", "ecs-tasks.amazonaws.com"]
+      identifiers = ["ecs-tasks.amazonaws.com"]
     }
 
     effect = "Allow"
@@ -93,24 +93,6 @@ data "aws_iam_policy_document" "app_policy" {
     resources = ["*"]
   }
 
-}
-
-
-###### task role
-resource "aws_iam_role" "ecs_task_role" {
-  name = "Calculadora_ecs_task_role"
-  assume_role_policy = jsonencode({
-    Version = "2012-10-17"
-    Statement = [
-      {
-        Action = "sts:AssumeRole"
-        Effect = "Allow"
-        Principal = {
-          Service = "ecs-tasks.amazonaws.com"
-        }
-      }
-    ]
-  })
 }
 
 #code deploy role

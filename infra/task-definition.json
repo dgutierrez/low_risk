@@ -1,0 +1,30 @@
+{
+    "family": "CalculadoraApiServices",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": ["FARGATE"],
+    "cpu": "256",
+    "memory": "512",
+    "executionRoleArn": "arn:aws:iam::974090536112:role/CalculadoraApiServices-role",
+    "containerDefinitions": [
+      {
+        "name": "CalculadoraApiServices",
+        
+        "essential": true,
+        "portMappings": [
+          {
+            "containerPort": 5010,
+            "protocol": "tcp"
+          }
+        ],
+        "logConfiguration": {
+          "logDriver": "awslogs",
+          "options": {
+            "awslogs-group": "/ecs/CalculadoraApiServices/",
+            "awslogs-region": "us-east-1",
+            "awslogs-stream-prefix": "ecs"
+          }
+        }
+      }
+    ]
+  }
+  
