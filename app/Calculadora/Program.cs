@@ -1,5 +1,7 @@
 using Calculadora.Application.Feature.Soma.Interfaces;
 using Calculadora.Application.Feature.Soma.UseCase;
+using Calculadora.Application.Feature.Subtracao.Interfaces;
+using Calculadora.Application.Feature.Subtracao.UseCase;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +16,9 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddTransient<SomaUseCase>();
 builder.Services.AddTransient<SomaUseCaseMock>();
 builder.Services.AddTransient<ISomaUseCaseResolver, SomaUseCaseResolver>();
-
+builder.Services.AddTransient<SubtracaoUseCase>();
+builder.Services.AddTransient<SubtracaoUseCaseMock>();
+builder.Services.AddTransient<ISubtracaoUseCaseResolver, SubtracaoUseCaseResolver>();
 
 var app = builder.Build();
 
