@@ -175,23 +175,6 @@ resource "aws_lb_target_group" "green" {
   }
 }
 
-resource "aws_lb_target_group" "red" {
-  name     = "${var.service_name}-tg-red"
-  port     = var.container_port_test
-  protocol = "HTTP"
-  vpc_id   = var.vpc_id
-  target_type = "ip"
-
-  health_check {
-    path                = var.health_check_path
-    interval            = 30
-    timeout             = 15
-    healthy_threshold   = 5
-    unhealthy_threshold = 5
-    matcher             = "200-299"
-  }
-}
-
 resource "aws_codedeploy_app" "ecs_app" {
   name = "AppECS-CalculadoraCluster-CalculadoraApiServices"
   compute_platform = "ECS"

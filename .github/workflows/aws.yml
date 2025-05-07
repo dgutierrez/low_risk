@@ -89,6 +89,38 @@ jobs:
       run: |
         sed -i "s|PLACEHOLDER_TASK_DEFINITION|${{ steps.register-task.outputs.task-definition-arn }}|g" appspec.yaml
 
+    - name: Obter ARN do TG da porta 5010
+      id: get-tg
+      run: |
+        export LISTENER_5010_ARN=$(aws elbv2 describe-listeners \
+          --load-balancer-arn arn:aws:elasticloadbalancing:${{ env.AWS_REGION }}:${{ secrets.AWS_ACCOUNT_ID }}:loadbalancer/app/calculadora-applb/1606a3ac18ebfb16 \
+          --query "Listeners[?Port==\`5010\`].ListenerArn" \
+          --output text)
+    
+        export TG_ARN=$(aws elbv2 describe-rules \
+          --listener-arn $LISTENER_5010_ARN \
+          --query "Rules[?IsDefault==\`true\`].Actions[0].TargetGroupArn" \
+          --output text)
+    
+        echo "tg_arn=$TG_ARN" >> $GITHUB_OUTPUT
+      
+    - name: Atualizar listener da porta 5020 para usar mesmo TG
+      run: |
+        LISTENER_5020_ARN=$(aws elbv2 describe-listeners \
+          --load-balancer-arn arn:aws:elasticloadbalancing:${{ env.AWS_REGION }}:${{ secrets.AWS_ACCOUNT_ID }}:loadbalancer/app/calculadora-applb/1606a3ac18ebfb16 \
+          --query "Listeners[?Port==\`5020\`].ListenerArn" \
+          --output text)
+    
+        RULE_ARN=$(aws elbv2 describe-rules \
+          --listener-arn $LISTENER_5020_ARN \
+          --query "Rules[?IsDefault==\`true\`].RuleArn" \
+          --output text)
+    
+        aws elbv2 modify-rule \
+          --rule-arn $RULE_ARN \
+          --actions Type=forward,TargetGroupArn=${{ steps.get-tg.outputs.tg_arn }}
+      
+
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
