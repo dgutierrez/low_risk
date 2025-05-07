@@ -78,7 +78,7 @@ jobs:
 
         TG_ARN=$(aws elbv2 describe-rules \
           --listener-arn $LISTENER_5010_ARN \
-          --query "Rules[?IsDefault==\`true\`].Actions[0].TargetGroupArn" \
+          --query "Rules[].Actions[].ForwardConfig.TargetGroups[?Weight==\`0\`].TargetGroupArn" \
           --output text)
 
         echo "Target Group da porta 5010: $TG_ARN"
