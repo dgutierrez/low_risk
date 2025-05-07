@@ -67,8 +67,10 @@ jobs:
     - name: Obter ARN do TG da porta 5010
       id: get-tg
       run: |
+        echo "ALB ARN: ${{ env.ALB_ARN }}"
+
         LISTENER_5010_ARN=$(aws elbv2 describe-listeners \
-          --load-balancer-arn ${{ env.ALB_ARN }} \
+          --load-balancer-arn "${{ env.ALB_ARN }}" \
           --query "Listeners[?Port==\`5010\`].ListenerArn" \
           --output text)
 
@@ -83,7 +85,7 @@ jobs:
     - name: Atualizar listener da porta 5020 para usar mesmo TG
       run: |
         LISTENER_5020_ARN=$(aws elbv2 describe-listeners \
-          --load-balancer-arn ${{ env.ALB_ARN }} \
+          --load-balancer-arn "${{ env.ALB_ARN }}" \
           --query "Listeners[?Port==\`5020\`].ListenerArn" \
           --output text)
 
