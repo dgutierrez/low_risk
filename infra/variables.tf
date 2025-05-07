@@ -36,6 +36,12 @@ variable "container_port" {
   default     = 5010
 }
 
+variable "container_port_test" {
+  description = "Porta onde o container expõe o serviço de teste"
+  type        = number
+  default     = 5020
+}
+
 variable "health_check_path" {
   description = "Caminho para o health check HTTP"
   type        = string
