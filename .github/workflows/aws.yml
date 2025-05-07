@@ -73,7 +73,7 @@ jobs:
 
         LISTENER_5010_ARN=$(aws elbv2 describe-listeners \
           --load-balancer-arn ${{ env.ALB_ARN }} \
-          --query "Listeners[?Port==\"`5010`\"].ListenerArn" \
+          --query "Listeners[?Port==\`5010\`].ListenerArn" \
           --output text)
 
         TG_ARN=$(aws elbv2 describe-rules \
@@ -82,13 +82,15 @@ jobs:
           --output text)
 
         echo "Target Group da porta 5010: $TG_ARN"
+        echo "LISTENER_5010_ARN -> $LISTENER_5010_ARN"
+        echo "TG_ARN -> $TG_ARN"
         echo "tg_arn=$TG_ARN" >> "$GITHUB_OUTPUT"
   
     - name: Atualizar listener da porta 5020 para usar mesmo TG
       run: |
         LISTENER_5020_ARN=$(aws elbv2 describe-listeners \
           --load-balancer-arn ${{ env.ALB_ARN }} \
-          --query "Listeners[?Port==\"`5020`"].ListenerArn" \
+          --query "Listeners[?Port==\`5020\`].ListenerArn" \
           --output text)
 
         RULE_ARN=$(aws elbv2 describe-rules \
@@ -96,6 +98,8 @@ jobs:
           --query "Rules[?IsDefault==\`true\`].RuleArn" \
           --output text)
 
+        echo "LISTENER_5020_ARN -> $LISTENER_5020_ARN"
+        echo "RULE_ARN -> $RULE_ARN"
         echo "Atualizando listener 5020 para apontar para o TG: ${{ steps.get-tg.outputs.tg_arn }}"
 
         aws elbv2 modify-rule \
