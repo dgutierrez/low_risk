@@ -102,9 +102,9 @@ jobs:
         echo "RULE_ARN -> $RULE_ARN"
         echo "Atualizando listener 5020 para apontar para o TG: ${{ steps.get-tg.outputs.tg_arn }}"
 
-        aws elbv2 modify-rule \
-          --rule-arn $RULE_ARN \
-          --actions Type=forward,TargetGroupArn=${{ steps.get-tg.outputs.tg_arn }}
+        aws elbv2 modify-listener \
+          --listener-arn $LISTENER_5020_ARN \
+          --default-actions Type=forward,TargetGroupArn=${{ steps.get-tg.outputs.tg_arn }}
 
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
