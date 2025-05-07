@@ -13,7 +13,7 @@ env:
                                                
   CONTAINER_NAME: CalculadoraApiServices       
                                                
-  ALB_ARN: arn:aws:elasticloadbalancing:us-east-1 :${{ secrets.AWS_ACCOUNT_ID }}:loadbalancer/app/calculadora-applb/1606a3ac18ebfb16
+  ALB_ARN: arn:aws:elasticloadbalancing:us-east-1:${{ secrets.AWS_ACCOUNT_ID }}:loadbalancer/app/calculadora-applb/1606a3ac18ebfb16
 
 permissions:
   contents: read
