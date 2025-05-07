@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projetos\\low_risk\\app\\Calculadora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\low_risk\\app\\calculadora\\controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|solutionrelative:controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\low_risk\\app\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\low_risk\\app\\calculadora.application\\feature\\subtracao\\interfaces\\isubtracaousecaseresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|d:\\projetos\\low_risk\\app\\calculadora\\controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B07E50F2-E407-4C09-87A6-0BDADB2F2FCF}|Calculadora.csproj|solutionrelative:controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2E440EB-3983-4506-AE49-47459554056B}|..\\Calculadora.Application\\Calculadora.Application.csproj|d:\\projetos\\low_risk\\app\\calculadora.application\\feature\\soma\\usecase\\somausecaseresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -83,8 +83,12 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SubtracaoUseCaseMock.cs",
               "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Subtracao\\UseCase\\SubtracaoUseCaseMock.cs",
               "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Subtracao\\UseCase\\SubtracaoUseCaseMock.cs",
@@ -97,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ISubtracaoUseCaseResolver.cs",
               "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Subtracao\\Interfaces\\ISubtracaoUseCaseResolver.cs",
               "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Subtracao\\Interfaces\\ISubtracaoUseCaseResolver.cs",
@@ -123,20 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CalculadoraController.cs",
               "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora\\Controllers\\CalculadoraController.cs",
               "RelativeDocumentMoniker": "Controllers\\CalculadoraController.cs",
               "ToolTip": "D:\\Projetos\\low_risk\\app\\Calculadora\\Controllers\\CalculadoraController.cs",
               "RelativeToolTip": "Controllers\\CalculadoraController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvyQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T20:42:30.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -149,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ISubtracaoUseCase.cs",
               "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Subtracao\\Interfaces\\ISubtracaoUseCase.cs",
               "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Subtracao\\Interfaces\\ISubtracaoUseCase.cs",
@@ -162,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SubtracaoUseCaseResolver.cs",
               "DocumentMoniker": "D:\\Projetos\\low_risk\\app\\Calculadora.Application\\Feature\\Subtracao\\UseCase\\SubtracaoUseCaseResolver.cs",
               "RelativeDocumentMoniker": "..\\Calculadora.Application\\Feature\\Subtracao\\UseCase\\SubtracaoUseCaseResolver.cs",
@@ -198,10 +202,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T00:37:42.299Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

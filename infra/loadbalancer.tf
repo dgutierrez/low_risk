@@ -1,3 +1,4 @@
+
 resource "aws_lb" "alb" {
   name               = var.alb_name
   security_groups    = [aws_security_group.alb_security.id]

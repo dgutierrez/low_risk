@@ -122,6 +122,25 @@ resource "aws_security_group_rule" "tcp_alb" {
   security_group_id = aws_security_group.alb_security.id
 }
 
+resource "aws_lb_listener" "alb_listener_test" {
+  load_balancer_arn = aws_lb.alb.arn
+  port              = var.container_port_test
+  protocol          = "HTTP"
+  default_action {
+    type = "forward"
+    target_group_arn = aws_lb_target_group.blue.arn
+  }
+}
+
+resource "aws_security_group_rule" "tcp_alb_test" {
+  type              = "ingress"
+  from_port         = var.container_port_test
+  to_port           = var.container_port_test
+  protocol          = "tcp"
+  cidr_blocks       = ["0.0.0.0/0"]
+  security_group_id = aws_security_group.alb_security.id
+}
+
 resource "aws_lb_target_group" "blue" {
   name     = "${var.service_name}-tg-blue"
   port     = var.container_port
@@ -142,6 +161,23 @@ resource "aws_lb_target_group" "blue" {
 resource "aws_lb_target_group" "green" {
   name     = "${var.service_name}-tg-green"
   port     = var.container_port
+  protocol = "HTTP"
+  vpc_id   = var.vpc_id
+  target_type = "ip"
+
+  health_check {
+    path                = var.health_check_path
+    interval            = 30
+    timeout             = 15
+    healthy_threshold   = 5
+    unhealthy_threshold = 5
+    matcher             = "200-299"
+  }
+}
+
+resource "aws_lb_target_group" "red" {
+  name     = "${var.service_name}-tg-red"
+  port     = var.container_port_test
   protocol = "HTTP"
   vpc_id   = var.vpc_id
   target_type = "ip"
@@ -219,6 +255,14 @@ resource "aws_security_group" "ecs_security_group" {
     description = "Permitir trafego na porta 5010"
     from_port   = var.container_port
     to_port     = var.container_port
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]  
+  }
+
+  ingress {
+    description = "Permitir trafego na porta 5020"
+    from_port   = var.container_port_test
+    to_port     = var.container_port_test
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]  
   }
