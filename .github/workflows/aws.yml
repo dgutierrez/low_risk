@@ -73,7 +73,7 @@ jobs:
 
         LISTENER_5010_ARN=$(aws elbv2 describe-listeners \
           --load-balancer-arn ${{ env.ALB_ARN }} \
-          --query "Listeners[?Port=="`5010"`].ListenerArn" \
+          --query "Listeners[?Port==\"`5010\"`].ListenerArn" \
           --output text)
 
         TG_ARN=$(aws elbv2 describe-rules \
@@ -88,7 +88,7 @@ jobs:
       run: |
         LISTENER_5020_ARN=$(aws elbv2 describe-listeners \
           --load-balancer-arn ${{ env.ALB_ARN }} \
-          --query "Listeners[?Port=="`5020"`].ListenerArn" \
+          --query "Listeners[?Port==\"`5020\"`].ListenerArn" \
           --output text)
 
         RULE_ARN=$(aws elbv2 describe-rules \
